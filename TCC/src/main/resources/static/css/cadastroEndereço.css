@@ -1,0 +1,25 @@
+ body {
+            background-color: #a3a8b3;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .btn-add {
+            background-color: #d6ccdf;
+            color: #5a4c68;
+        }
+        .form-check {
+            margin-top: 15px;
+        }

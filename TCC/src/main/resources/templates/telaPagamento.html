@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Impact</title>
+    <link th:href="@{/css/telaPagamento.css}" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img src="/img/Impact-image.png" class="logo" alt="Logo Impact">
+        <h1>METODO DE PAGAMENTO</h1>
+    </header>
+    <main>
+        <section class="payment-method">
+            <button class="method-button active">CARTÃO</button>
+            <button class="method-button">PIX</button>
+        </section>
+        <section class="card-details">
+            <div class="input-group">
+                <label for="card-number">NUMERO DO CARTÃO:</label>
+                <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+            </div>
+            <div class="input-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="XXX">
+            </div>
+            <div class="input-group">
+                <label for="expiration">SENHA:</label>
+                <input type="password" id="expiration" placeholder="••••">
+            </div>
+        </section>
+        <section class="pix-details">
+            <img src="qrcode.png" alt="QRCode">
+            <p>SCAN ME</p>
+        </section>
+        <button class="finalizar-compra">FINALIZAR COMPRA</button>
+    </main>
+</body>
