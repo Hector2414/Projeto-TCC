@@ -10,9 +10,6 @@ public class CadastroProdutoController {
         return "cadastroProduto"; 
     }
 
-    @GetMapping("/cadastroEndereço")
-    public String cadastroEndereço() {
-        return "cadastroEndereço"; 
-    }
+   
 
 }
